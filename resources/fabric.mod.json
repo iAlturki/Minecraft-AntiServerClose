@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft_antiserverclose",
+  "version": "0.5.0-beta.1",
+  "name": "Minecraft AntiServerClose",
+  "description": "By iAlturki. Disabled-by-default supervisor for a Microsoft-authenticated Botcraft 26.3 client.",
+  "authors": [
+    "iAlturki"
+  ],
+  "contact": {
+    "homepage": "https://github.com/iAlturki/Minecraft-AntiServerClose",
+    "sources": "https://github.com/iAlturki/Minecraft-AntiServerClose",
+    "issues": "https://github.com/iAlturki/Minecraft-AntiServerClose/issues"
+  },
+  "license": "GPL-3.0-only",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "io.github.ialturki.antiserverclose.AntiServerClose"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

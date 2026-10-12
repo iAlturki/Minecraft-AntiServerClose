@@ -1,0 +1,31 @@
+# Minecraft AntiServerClose by iAlturki
+name: Bug report
+description: Report a reproducible issue with Minecraft AntiServerClose by iAlturki
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post Microsoft codes, credentials, full logs, worlds, or host exports. Use private vulnerability reporting for security issues."
+  - type: input
+    id: versions
+    attributes:
+      label: Versions and platform
+      description: Minecraft, Fabric Loader, Fabric API, Java, Linux architecture, and mod version
+    validations:
+      required: true
+  - type: dropdown
+    id: diagnostic
+    attributes:
+      label: Native diagnostic
+      options:
+        - Passed
+        - Failed
+        - Not checked
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened and how to reproduce it
+      description: Explain expected/actual behavior and include only short sanitized errors.
+    validations:
+      required: true

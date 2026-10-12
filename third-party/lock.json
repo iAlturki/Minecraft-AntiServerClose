@@ -1,0 +1,95 @@
+{
+  "project": "Minecraft AntiServerClose",
+  "author": "iAlturki",
+  "botcraft_revision": "0809455c61b9e2584bd9b1c2ee777fa0e1765b56",
+  "botcraft_source": {
+    "url": "https://codeload.github.com/adepierre/Botcraft/zip/0809455c61b9e2584bd9b1c2ee777fa0e1765b56",
+    "sha256": "05de62c3284f176c09bb93489b4c6bb5e7f4bbfd74f29ddee18fa270657d8c78"
+  },
+  "botcraft_binary": {
+    "url": "https://github.com/adepierre/Botcraft/releases/download/latest/botcraft-linux-26.3.zip",
+    "mirrors": [
+      "https://github.com/iAlturki/Minecraft-AntiServerClose/releases/download/v0.5.0-beta.1/Botcraft-26.3-upstream-linux.zip"
+    ],
+    "published_at": "2026-10-02T19:01:49Z",
+    "sha256": "44a8098c2fe196b1626643edba51e44a14fac04246eb1050c0006e9b0edfba90"
+  },
+  "fabric_loader": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
+    "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695"
+  },
+  "submodules": [
+    {
+      "name": "asio",
+      "repository": "chriskohlhoff/asio",
+      "revision": "ed6aa8a13d51dfc6c00ae453fc9fb7df5d6ea963",
+      "path": "3rdparty/asio",
+      "url": "https://codeload.github.com/chriskohlhoff/asio/zip/ed6aa8a13d51dfc6c00ae453fc9fb7df5d6ea963",
+      "sha256": "a0155c53349c17887073a5653b7246ea06c2fde824617e7bfc160ce41910388c"
+    },
+    {
+      "name": "catch2",
+      "repository": "catchorg/Catch2",
+      "revision": "2b60af89e23d28eefc081bc930831ee9d45ea58b",
+      "path": "3rdparty/catch2",
+      "url": "https://codeload.github.com/catchorg/Catch2/zip/2b60af89e23d28eefc081bc930831ee9d45ea58b",
+      "sha256": "cbfd9f2ec88942e86cc190d8f558b71267fc188a070c08455f5d147ca5fbf86c"
+    },
+    {
+      "name": "glfw",
+      "repository": "glfw/glfw",
+      "revision": "7b6aead9fb88b3623e3b3725ebb42670cbe4c579",
+      "path": "3rdparty/glfw",
+      "url": "https://codeload.github.com/glfw/glfw/zip/7b6aead9fb88b3623e3b3725ebb42670cbe4c579",
+      "sha256": "699bf0b3d0bd422c0212263f30c4b6fc1ab4f67320824b27854f1e5c6949a2a0"
+    },
+    {
+      "name": "glm",
+      "repository": "g-truc/glm",
+      "revision": "0af55ccecd98d4e5a8d1fad7de25ba429d60e863",
+      "path": "3rdparty/glm",
+      "url": "https://codeload.github.com/g-truc/glm/zip/0af55ccecd98d4e5a8d1fad7de25ba429d60e863",
+      "sha256": "d53f8d8a3fd3f63a5da21c64701985ed933a93064620bb1a22dcb37ddb3795d1"
+    },
+    {
+      "name": "imgui",
+      "repository": "ocornut/imgui",
+      "revision": "b81bd7ed984ce095c20a059dd0f4d527e006998f",
+      "path": "3rdparty/imgui",
+      "url": "https://codeload.github.com/ocornut/imgui/zip/b81bd7ed984ce095c20a059dd0f4d527e006998f",
+      "sha256": "678c619754a1cda572c8a3f4a1d1057a614bedf260ac9475adf0af297c3a2e33"
+    },
+    {
+      "name": "imgui-node-editor",
+      "repository": "thedmd/imgui-node-editor",
+      "revision": "c24a8a80484568ce85bd92cfcb5c24646b951ac4",
+      "path": "3rdparty/imgui-node-editor",
+      "url": "https://codeload.github.com/thedmd/imgui-node-editor/zip/c24a8a80484568ce85bd92cfcb5c24646b951ac4",
+      "sha256": "8f47abcd1527825ec220127201055d07dfbe9e2d37583fc0ac1abc4324b0724d"
+    },
+    {
+      "name": "openssl",
+      "repository": "janbar/openssl-cmake",
+      "revision": "b0ac69581958cd658364147da9057da89a01c394",
+      "path": "3rdparty/openssl",
+      "url": "https://codeload.github.com/janbar/openssl-cmake/zip/b0ac69581958cd658364147da9057da89a01c394",
+      "sha256": "15f80fd94745d18568f8fcf7b000c5823e4482deff4d4a6c96d86ad84e375024"
+    },
+    {
+      "name": "rectpack2D",
+      "repository": "TeamHypersomnia/rectpack2D",
+      "revision": "3344bf5f39db1a9fb45fd82bfc85c3a5be045e3b",
+      "path": "3rdparty/rectpack2D",
+      "url": "https://codeload.github.com/TeamHypersomnia/rectpack2D/zip/3344bf5f39db1a9fb45fd82bfc85c3a5be045e3b",
+      "sha256": "d62577e545d052fd2904f5e85813f98c4d206cde653191a057e237806a9781ee"
+    },
+    {
+      "name": "zlib",
+      "repository": "madler/zlib",
+      "revision": "5a82f71ed1dfc0bec044d9702463dbdf84ea3b71",
+      "path": "3rdparty/zlib",
+      "url": "https://codeload.github.com/madler/zlib/zip/5a82f71ed1dfc0bec044d9702463dbdf84ea3b71",
+      "sha256": "92e1a7ce7551671565d8e9b0b73061523eef6f98a7cc39b91b512d65ed22f2db"
+    }
+  ]
+}

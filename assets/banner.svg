@@ -1,0 +1,24 @@
+<!-- Copyright (c) 2026 iAlturki — Minecraft AntiServerClose. GPL-3.0-only. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Minecraft AntiServerClose by iAlturki: Fabric 26.3, server-hosted client">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1a16"/><stop offset="1" stop-color="#102926"/></linearGradient>
+    <linearGradient id="green" x2="0" y2="1"><stop stop-color="#a7f57a"/><stop offset="1" stop-color="#48ba7c"/></linearGradient>
+  </defs>
+  <rect width="960" height="260" rx="20" fill="url(#bg)"/>
+  <path d="M0 220H960M780 0V260M820 0V260M860 0V260M900 0V260M940 0V260M780 40H960M780 80H960M780 120H960M780 160H960" stroke="#74cc99" stroke-opacity=".09"/>
+  <g transform="translate(66 67)">
+    <rect width="120" height="126" rx="12" fill="#122f24" stroke="#5fca8d" stroke-width="2"/>
+    <g fill="#254d36" stroke="#5fca8d"><rect x="15" y="17" width="90" height="25" rx="4"/><rect x="15" y="50" width="90" height="25" rx="4"/><rect x="15" y="83" width="90" height="25" rx="4"/></g>
+    <g fill="#a7f57a"><circle cx="89" cy="30" r="4"/><circle cx="89" cy="63" r="4"/><circle cx="89" cy="96" r="4"/></g>
+    <path d="M28 30H59M28 63H59M28 96H59" stroke="#a7f57a" stroke-width="3"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="228" y="79" font-size="16" letter-spacing="5" fill="#a1c5b0">MINECRAFT</text>
+    <text x="226" y="136" font-size="48" font-weight="750" fill="url(#green)">AntiServerClose</text>
+    <text x="228" y="174" font-size="19" fill="#cce5d8">A server-hosted client. Your PC can be off.</text>
+    <text x="228" y="211" font-size="16" fill="#8fbca1">Created and maintained by <tspan font-weight="700" fill="#b9f38c">iAlturki</tspan></text>
+    <text x="812" y="102" font-size="14" fill="#b9f38c">FABRIC</text>
+    <text x="810" y="151" font-size="37" font-weight="700" fill="#e2f8ea">26.3</text>
+    <text x="812" y="177" font-size="13" fill="#8fbca1">Linux x86-64</text>
+  </g>
+</svg>

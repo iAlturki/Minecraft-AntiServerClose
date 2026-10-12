@@ -1,0 +1,37 @@
+# Minecraft AntiServerClose — created and maintained by iAlturki
+name: Build Minecraft AntiServerClose
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Fetch checksum-locked public dependencies
+        run: python3 tools/fetch_dependencies.py
+      - name: Build native client and check protocol fixes
+        run: python3 tools/build_native.py
+      - name: Build Fabric JAR and check supervisor
+        run: python3 build.py
+      - name: Package corresponding source
+        run: python3 tools/package_sources.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: Minecraft-AntiServerClose-by-iAlturki
+          path: dist/
+          if-no-files-found: error
+          retention-days: 14

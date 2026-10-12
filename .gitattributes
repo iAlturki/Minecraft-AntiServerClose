@@ -1,0 +1,10 @@
+# Minecraft AntiServerClose by iAlturki
+* text=auto
+*.java text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.properties text eol=lf

@@ -1,0 +1,28 @@
+Minecraft AntiServerClose
+Copyright (c) 2026 iAlturki
+https://github.com/iAlturki/Minecraft-AntiServerClose
+
+Project creator and maintainer: iAlturki.
+The Fabric supervisor, account checks, native protocol fixes, build tools,
+documentation, and project artwork are provided by iAlturki.
+
+Licensed under GNU GPL version 3; see LICENSE. Preserve copyright notices,
+attribution, license terms, and corresponding source when redistributing.
+
+THIRD-PARTY NOTICES
+-------------------
+Botcraft and protocolCraft are third-party components from adepierre/Botcraft
+and its contributors, licensed under GNU GPL version 3. They retain their
+existing authorship and notices. They are not original work by iAlturki.
+Pinned revision: 0809455c61b9e2584bd9b1c2ee777fa0e1765b56.
+
+Additional dependency notices are preserved in third-party/licenses and in
+the corresponding-source release archive. See THIRD_PARTY.md for provenance.
+
+Minecraft AntiServerClose is independent and is not affiliated with Mojang,
+Microsoft, Fabric, Botcraft, or any hosting provider.
+Minecraft is a trademark of its respective owner.
+
+This software is provided without warranty. Hosting policies may prohibit
+automated clients or idle-limit avoidance. Suspension, termination, world
+loss, and exposure of server-stored authentication credentials are possible.

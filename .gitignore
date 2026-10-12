@@ -1,0 +1,30 @@
+# Minecraft AntiServerClose by iAlturki
+.build/
+dist/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+# Runtime secrets, logs, worlds, and host exports never belong in this repository.
+config/
+logs/
+world/
+world_nether/
+world_the_end/
+*cached_credentials*
+*credentials.json
+bot-console.log
+*.log
+server.properties
+whitelist.json
+ops.json
+*.dat
+*.dat_old
+*.mca
+*.jar
+*.so
+*.tar.gz
+*.zip
+*.png
+*.jpg
+*.jpeg
