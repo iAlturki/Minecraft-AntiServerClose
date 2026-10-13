@@ -2,9 +2,9 @@
 
 <!-- AI setup by iAlturki -->
 <p align="center">
-  <img src="assets/banner.svg" width="530" alt="Minecraft AntiServerClose logo">
+  <img src="assets/banner.svg" width="360" alt="Minecraft AntiServerClose logo">
   &nbsp;&nbsp;
-  <a href="https://ialturki.github.io/Minecraft-AntiServerClose/agent-setup/"><img src="assets/ai-setup.svg" width="245" alt="Set up with your AI agent — open the setup prompt copier"></a>
+  <a href="https://ialturki.github.io/Minecraft-AntiServerClose/agent-setup/" title="Codex · Claude Code · Antigravity · Kimi Code · Cursor · GitHub Copilot"><img src="assets/ai-setup.svg" width="440" alt="Set up with your AI agent — open the setup prompt copier"></a>
 </p>
 <p align="center"><sub>Click the setup button, copy the prompt, and give it to your AI agent. <a href="docs/agent-setup/prompt.txt">Read the prompt</a>.</sub></p>
 <!-- /AI setup by iAlturki -->

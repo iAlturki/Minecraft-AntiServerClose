@@ -29,3 +29,6 @@ loss, and exposure of server-stored authentication credentials are possible.
 
 INDEPENDENT SETUP MATERIAL
 The standalone docs/agent-setup page, prompt, and assets/ai-setup.svg are CC BY-NC-SA 4.0, Copyright (c) 2026 iAlturki. This does not relicense the GPL software or its dependencies. Existing banner artwork retains its GPL-v3 license.
+
+AI AGENT MARKS
+The bundled agent marks in assets/agents and docs/agent-setup/agents, also embedded in the setup pill, belong to their respective owners and are excluded from this project's CC BY-NC-SA/GPL grants. They identify agents users may choose and imply no endorsement. See assets/agents/NOTICE.md; the MIT GitHub Octicons notice is retained. Setup layout/text remain credited to iAlturki.
