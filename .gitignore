@@ -28,3 +28,8 @@ ops.json
 *.png
 *.jpg
 *.jpeg
+# Public agent marks; sources and ownership are documented in assets/agents/NOTICE.md.
+!/assets/agents/claude-code.png
+!/assets/agents/kimi-code.png
+!/docs/agent-setup/agents/claude-code.png
+!/docs/agent-setup/agents/kimi-code.png
