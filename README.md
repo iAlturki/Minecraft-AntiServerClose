@@ -1,6 +1,13 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="960" alt="Minecraft AntiServerClose — created and maintained by iAlturki">
+<!-- AI setup by iAlturki -->
+<p align="center">
+  <img src="assets/banner.svg" width="530" alt="Minecraft AntiServerClose logo">
+  &nbsp;&nbsp;
+  <a href="https://ialturki.github.io/Minecraft-AntiServerClose/agent-setup/"><img src="assets/ai-setup.svg" width="245" alt="Set up with your AI agent — open the setup prompt copier"></a>
+</p>
+<p align="center"><sub>Click the setup button, copy the prompt, and give it to your AI agent. <a href="docs/agent-setup/prompt.txt">Read the prompt</a>.</sub></p>
+<!-- /AI setup by iAlturki -->
 
 # Minecraft AntiServerClose
 
@@ -108,3 +115,6 @@ Dependencies are pinned and checksummed. Protocol, timestamp, account-argument, 
 GNU **GPL v3**: [LICENSE](LICENSE), [NOTICE](NOTICE), and [AUTHORS](AUTHORS). Botcraft and its dependencies retain their original third-party attribution and license notices. Each release includes corresponding source; read [THIRD_PARTY.md](THIRD_PARTY.md). This project is independent of Mojang, Microsoft, Fabric, Botcraft, and hosting providers.
 
 <p align="center"><sub>Made by <a href="https://github.com/iAlturki"><b>iAlturki</b></a> · <a href="CHANGELOG.md">Changelog</a> · <a href="SECURITY.md">Security</a></sub></p>
+
+
+The independent [AI setup page and prompt](docs/agent-setup/) are **CC BY-NC-SA 4.0 © iAlturki**. The mod, client, protocol fixes, and required build/source components remain **GPL v3**; dependency notices are unchanged.
